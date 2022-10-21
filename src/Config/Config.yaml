@@ -1,2 +1,4 @@
 postgres:
   host: postgresql://postgres:postgres@localhost:5432/postgres
+  table_name_one: users
+  table_name_two: alert

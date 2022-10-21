@@ -17,6 +17,7 @@ statuse = False
 @alert_router.post("/creating_application")
 async def creating(name: str, cabinet: int, who: ModelSpeciality, problems: str):
     return name, cabinet, who, problems, statuse
+    # print()
 
 @alert_router.get("/application_status")
 async def status():
